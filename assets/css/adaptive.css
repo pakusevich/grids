@@ -1,0 +1,28 @@
+@media (max-width: 425px) {
+    .header {
+        background-image: url(../img/11min.png) no-repeat;
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        grid-column: 1/2;
+        height: auto;
+        justify-items: center;
+    }
+
+    .header-logo {
+        max-height: 85px;
+    }
+
+    nav {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .header-block {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        align-self: center;
+    }
+}
